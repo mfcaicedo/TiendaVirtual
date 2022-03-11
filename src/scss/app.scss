@@ -1,0 +1,23 @@
+//Importo todos los archivos de sass 
+@import 'base/normalize';
+@import 'base/variables';
+@import 'base/globales';
+@import 'base/mixins';
+@import 'base/botones';
+
+//internas
+@import 'internas/nosotros';
+@import 'internas/admin';
+
+//layout 
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/galeria';
+@import 'layout/eligenos';
+@import 'layout/contactar';
+@import 'layout/articulos';
+@import 'layout/formulario';
+
+
+
+

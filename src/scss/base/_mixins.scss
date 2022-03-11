@@ -1,0 +1,32 @@
+@mixin telefono {
+    @media (min-width: #{$telefono}) {
+        @content;
+    }
+}
+@mixin tablet {
+    @media (min-width: #{$tablet}) {
+        @content;
+    }
+}
+@mixin desktop {
+    @media (min-width: #{$desktop}) {
+        @content;
+    }
+}
+@mixin boton($color) {
+    background-color: $color;
+    font-weight: bold;
+    color: $blanco;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 1.5rem;
+    position:center;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+
+    &:hover{
+        background-color: darken($color, 10);
+        cursor: pointer;
+    }
+
+}

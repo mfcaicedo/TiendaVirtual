@@ -1,0 +1,34 @@
+.alerta-error{
+    background-color: $rojo;
+    text-align: center;
+   
+    p{
+        color: $blanco;
+    }
+}
+.alerta-exito{
+    background-color: $verde;
+    text-align: center;
+    padding: .1px 0 .1px 0;
+    p{
+        color: $blanco;
+    }
+}
+
+.tabla-resultados{
+    border-spacing: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    
+    
+    thead{
+            background-color: $azul;
+            
+            th{
+                padding: 1rem;
+            }
+        
+    }
+}
+

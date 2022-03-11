@@ -1,0 +1,17 @@
+.boton-amarillo{
+    @include boton($amarillo);
+}
+.boton-gris{
+    @include boton($gris);
+}
+.boton-verde{
+    @include boton($verde);
+    // padding: 1.5rem;
+}
+.boton-rojo{
+    @include boton($rojo);
+
+}
+.boton-azul{
+    @include boton($azul);
+}

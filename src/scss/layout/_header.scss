@@ -1,0 +1,53 @@
+.header{
+    background-color: $azulClaro;
+    margin-bottom: 2rem;
+    
+}
+@include tablet{
+    .contenido-header{
+        display: flex;
+        justify-content: space-between;
+        padding: 3rem 2rem 0 0;
+
+        .navegacion{
+            .barra{
+                display: inline;
+            }
+        }
+    }
+    
+}
+.barra{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    a{
+        padding-right: 2.5rem;
+        color: $blanco;
+    }
+    a:last-of-type{
+        padding-right: 0;
+    }
+    
+}
+a:hover{
+    background-color: $azulOscuro;
+}
+.logo{
+    .logo-pagina{
+        margin-bottom: 1rem;
+    }
+}
+.imagen-header{
+    padding-bottom: 0;
+    img{
+        height: 40rem;
+    
+    }
+}
+//stilos al header cuando esté la barra fija 
+.barra-fija{
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 .3rem .4rem $gris;
+}

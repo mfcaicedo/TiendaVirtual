@@ -1,0 +1,23 @@
+.formulario{
+    font-size: 2rem;
+   
+    label{
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    input:not([type='submit']), textarea{
+        border: 1px solid $grisClaro;
+        border-radius: 9px;
+        width: 100%;
+        margin: 0 0 2rem 0;
+        padding: .7rem 0 .7rem 0;
+
+
+    }
+    
+}
+.parrafo-contacto{
+    span{
+        font-weight: bold;
+    }
+}

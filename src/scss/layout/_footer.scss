@@ -1,0 +1,27 @@
+.footer{
+    background-color: $azulClaro;
+    padding-top: 1rem;
+    margin-top: 1rem;
+}
+.parrafo{
+    text-align: center;
+}
+@include tablet{
+    .navegacion{
+        .barra-footer{
+            display: flex;
+            flex-direction: row;
+            column-gap: 2rem;
+            
+        }    
+    }   
+}
+.barra-footer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    a{
+        color: $blanco;
+    }
+}
+

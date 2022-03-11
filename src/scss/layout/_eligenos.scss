@@ -1,0 +1,47 @@
+.eligenos{
+    .anuncios{
+        display: grid;
+        gap: 2rem;
+
+        .anuncio{
+            background-color: $grisClaro;
+        }
+    }
+
+}
+.anuncio{
+    .logo{
+        text-align: center;
+    }
+}
+.texto{
+    p{
+        text-align: center;
+    }
+}
+@include telefono{
+        
+    .eligenos{
+        .anuncios{
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }    
+}
+@include tablet{
+        
+    .eligenos{
+        .anuncios{
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }    
+}
+@include desktop{
+        
+    .eligenos{
+        .anuncios{
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }    
+}
+
+
